@@ -35,6 +35,9 @@ We provide a demo script that takes a video as input and reconstructs the most p
 
 ```bash
 python tools/demo.py --video {PATH_TO_VIDEO}
+
+# run inference on provided example video:
+python tools/demo.py --video docs/example_video/stepdance.mp4
 ```
 
 ### Reproducing Results
