@@ -1,0 +1,6 @@
+[submodule "third-party/DPVO"]
+	path = third-party/DPVO
+	url = https://github.com/princeton-vl/DPVO
+[submodule "third-party/sapiens"]
+	path = third-party/sapiens
+	url = https://github.com/facebookresearch/sapiens
