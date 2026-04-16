@@ -1,0 +1,25 @@
+# @package _global_
+defaults:
+  - override /data: mocap/testY
+  - override /test_datasets:
+          - rich/all
+          - moyo/all
+          - moof/all
+  - override /callbacks:
+          - metric_rich
+          - metric_moyo
+          - metric_moof
+  - _self_
+
+task: test
+data_name: test_mocap
+ckpt_path: ??? # will not override previous setting if already set
+
+# lightning utilities
+pl_trainer:
+  devices: 1
+logger:
+    _target_: pytorch_lightning.loggers.TensorBoardLogger
+    save_dir: ${output_dir} # /save_dir/name/version/sub_dir
+    name: ""
+    version: "tb" # merge name and version
