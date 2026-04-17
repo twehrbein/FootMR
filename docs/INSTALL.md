@@ -32,7 +32,7 @@ pip install -e . -v --no-build-isolation
 
 - Follow [GVHMR](https://github.com/zju3dv/GVHMR/blob/main/docs/INSTALL.md#inputs--outputs) to prepare required checkpoints and training and testing data
 
-- Download all data from [here](https://cloud.tnt.uni-hannover.de/index.php/apps/files/files/9710731?dir=/3DV%202026)
+- Download all data from [here](https://cloud.tnt.uni-hannover.de/index.php/s/tpLX3F6Mz4FqHaD)
 
 - If needed, download Sapiens checkpoint: sapiens_2b_coco_wholebody_best_coco_wholebody_AP_745.pth from [here](https://huggingface.co/noahcao/sapiens-pose-coco/tree/main/sapiens_host/pose/checkpoints/sapiens_2b) 
 
