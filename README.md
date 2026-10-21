@@ -2,6 +2,9 @@
 
 [![Website](https://img.shields.io/badge/Website-FootMR-orange)](https://twehrbein.github.io/footmr-website/) [![arXiv](https://img.shields.io/badge/arXiv-2603.09681-red)](https://arxiv.org/abs/2603.09681)
 
+> [!NOTE]
+> 🔥 Check out **ExMR**, our journal extension of FootMR, which adds hand motion refinement for whole-body (body, hand, and foot) motion capture: [Website](https://twehrbein.github.io/exmr-website/) | [arXiv](https://arxiv.org/abs/2610.26213) | [Code](https://github.com/twehrbein/ExMR)
+
 > **Improving 3D Foot Motion Reconstruction in Markerless Monocular Human Motion Capture** <br>
 > [Tom Wehrbein](https://www.tnt.uni-hannover.de/en/staff/wehrbein/) and [Bodo Rosenhahn](https://www.tnt.uni-hannover.de/en/staff/rosenhahn/) <br>
 > 2026 International Conference on 3D Vision (3DV)
